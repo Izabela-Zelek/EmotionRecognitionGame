@@ -2,8 +2,14 @@ using UnityEngine;
 using Unity.Barracuda;
 using UnityEngine.UI;
 using System.IO;
-public class Model : MonoBehaviour
+/// <summary>
+/// Initial implementation of model in Unity
+/// Unity had issues interpreting the model
+/// EmotionController is the proper script used
+/// </summary>
+public class OldUnusedModel : MonoBehaviour
 {
+
     public NNModel modelAsset;
     private Unity.Barracuda.Model m_RuntimeModel;
     private IWorker worker;

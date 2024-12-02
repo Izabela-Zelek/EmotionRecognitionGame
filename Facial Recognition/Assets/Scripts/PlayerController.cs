@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// Script which was imported with Alteruna (an asset which adds multiplayer functionality), taken from the Unity Asset Store
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
     [Header("Base setup")]

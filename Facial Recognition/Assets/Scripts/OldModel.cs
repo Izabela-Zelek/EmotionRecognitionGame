@@ -2,6 +2,10 @@ using UnityEngine;
 using Unity.Barracuda;
 using UnityEngine.UI;
 using System.IO;
+/// <summary>
+/// Another failed implementation
+/// Real implementation found in EmotionController
+/// </summary>
 public class OldModel : MonoBehaviour
 {
     public NNModel modelAsset;

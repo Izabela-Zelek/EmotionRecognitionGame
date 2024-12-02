@@ -3,7 +3,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
 using Alteruna.Trinity;
-
+/// <summary>
+/// Room Menu script which came with the Alteruna package from Unity Asset Store
+/// Adds multiplayer functionality
+/// </summary>
 namespace Alteruna
 {
 	public class RoomMenu : CommunicationBridge
